@@ -9,19 +9,22 @@ html(lang="en")
     body.login
        header.header
         .header__content
-            .header__content_item
+            .header__content_item.btn-login
                 img(src="assets/img/btn-login.png", alt="login")
-        main.main
-            .main__content
-                .main__content_item Planificación Operativa
-                .main__content_item
-                    img(src="assets/img/logo-poapac.png", alt="poa pac")
-                .main__content_item Bienvenidos
-        footer.footer
-            .footer__content
-                .footer__content_item.logo
-                    img(src="assets/img/logo-espoch.png", alt="ESPOCH")
-                .footer__content_item.logo
-                    img(src="assets/img/planificacion.png", alt="Planificación ESPOCH")
-                .footer__content_item.logo
-                    img(src="assets/img/cimogsys.png", alt="CIMOGSYS")
+    main.main
+        .main__content
+            .main__content_item.title Planificación Operativa 2020
+            .main__content_item.logo
+                img(src="assets/img/logo-poapac.png", alt="poa pac")
+            .main__content_item.welcome Bienvenido(a)
+    footer.footer
+        .footer__content
+            .footer__content_item.logo
+                a(href="https://www.espoch.edu.ec" target="_blank") 
+                    img(class="img-espoch" src="assets/img/espoch color.svg", alt="ESPOCH")
+            .footer__content_item.logo
+                a(href="https://www.espoch.edu.ec/index.php/component/k2/item/869.html" target="_blank") 
+                    img(class="img-planificacion" src="assets/img/DPlanificacion.png", alt="Planificación ESPOCH")
+            .footer__content_item.logo
+                a(href="http://cimogsys.com/" target="_blank") 
+                    img(class="img-cimogsys" src="assets/img/cimogsys.png", alt="CIMOGSYS")
